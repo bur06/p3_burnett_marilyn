@@ -168,22 +168,20 @@ Media Querries
 		display: block;
 		width: 100%;
 		padding: .625em 2.75%;
-		color: #212226;
+		color: #6057b9;
 		font-weight: bold;
 		text-decoration: none;
 		text-align: right;
 	}
 	
 	#hamitems a:hover {
-		opacity: 80%;
-		color: #265954;
+		opacity: 75%;
 		font-weight: bolder;
-		background-color: #ffffff;
 	}
 	
 	#navright label {
 		display: inline-block;
-		color: #212226;
+		color: #010d26;
 		font-size: 2.5em;
 		padding: .625em 3% .4em 0;
 	}
@@ -248,7 +246,6 @@ Media Querries
 	}
 
 	#hamitems a {
-		color: #212226;
 		flex-grow: 0;
 		flex-shrink: 0;
 		flex-basis: 0;
