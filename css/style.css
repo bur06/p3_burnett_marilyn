@@ -75,6 +75,12 @@ font-style: normal;
 .container {
     width: 100%;
     margin: 0 auto;
+	padding: 0 5%;
+}
+
+header {
+	height: 8em;
+	padding: 0 4%;
 }
 
 body {
@@ -95,7 +101,7 @@ h1 {
 
 .navleft {
 	float: left;
-	width: 8%;
+	width: 40%;
 	vertical-align: top;
 	margin: 0;
 	padding: 0;
@@ -103,8 +109,7 @@ h1 {
 
 #navright {
 	float: right;
-	width: 86%;
-	padding: .9em 2.5% 0 .1%;
+	width: 40%;
 	vertical-align: top;
 	text-align: right;
 	margin: 0;
@@ -115,7 +120,10 @@ h1 {
 
 /*======= Main Styling =======*/
 
-
+.navleft img[alt="MT Logo"] {
+	max-width: 100%;
+	padding: 1em 0 0;
+}
 
 
 
@@ -183,7 +191,7 @@ Media Querries
 		display: inline-block;
 		color: #010d26;
 		font-size: 2.5em;
-		padding: .625em 3% .4em 0;
+		padding: 1em 0 0;
 	}
 	
 	#hamitems {
@@ -256,11 +264,11 @@ Media Querries
 	}
 
 	.navleft {
-		width: 10%;
+		width: 25%;
 	}
 
 	#navright {
-		width: 80%;
+		width: 70%;
 		padding: .2em 2.5%;
 	}
 
