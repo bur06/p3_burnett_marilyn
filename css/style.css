@@ -50,6 +50,24 @@ Custom CSS
 
 /*======= Universal Styling =======*/
 
+/*------Adobe Typekit Fonts-------
+
+Liza Display Pro Regular
+font-family: liza-display-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Liza Text Pro Regular
+font-family: liza-text, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Liza Caps Pro Regular
+font-family: liza-caps-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+-------------------------------*/
+
 * {
     box-sizing: border-box;
 }
@@ -61,6 +79,14 @@ Custom CSS
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-family: liza-display-new, sans-serif;
+	font-family: liza-text, sans-serif;
+	font-family: liza-caps-new, sans-serif;
+}
+
+h1 {
+	font-family: liza-text, sans-serif;
+	font-size: 2em;
 }
 
 
