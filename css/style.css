@@ -1,0 +1,298 @@
+/*========== CSS Reset ==========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=================================
+Custom CSS
+==================================*/
+
+
+/*======= Universal Styling =======*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*======= Menu Styling =======*/
+
+.navleft {
+	float: left;
+	width: 8%;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+}
+
+#navright {
+	float: right;
+	width: 86%;
+	padding: .9em 2.5% 0 .1%;
+	vertical-align: top;
+	text-align: right;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .938em;
+}
+
+
+/*======= Main Styling =======*/
+
+
+
+
+
+/*======= Footer Styling =======*/
+
+
+
+
+/*=================================
+Services Page
+==================================*/
+
+
+
+
+
+/*=================================
+About Page
+==================================*/
+
+
+
+
+
+/*=================================
+Contact Page
+==================================*/
+
+
+
+
+
+/*=================================
+Media Querries
+==================================*/
+
+
+/*======= Small Screens =======*/
+
+@media only screen and (min-width: 320px) {
+
+	#hamitems {
+		width: 100%;
+		position: sticky;
+		top: 0;
+	}
+	
+	#hamitems a {
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+		padding: .625em 2.75%;
+		color: #212226;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: right;
+	}
+	
+	#hamitems a:hover {
+		opacity: 80%;
+		color: #265954;
+		font-weight: bolder;
+		background-color: #ffffff;
+	}
+	
+	#navright label {
+		display: inline-block;
+		color: #212226;
+		font-size: 2.5em;
+		padding: .625em 3% .4em 0;
+	}
+	
+	#hamitems {
+		display: none;
+	}
+	
+	#navright input:checked ~ #hamitems {
+		display: block;
+	}
+	
+	#hamburger {
+		display: none;
+	}
+
+
+/*------Services Page------*/
+
+
+
+/*-------About Page-------*/
+
+
+
+/*------Contact Page------*/
+
+
+
+}
+
+
+/*======= Small Devices =======*/
+
+@media only screen and (min-width: 576px) {
+
+
+
+/*------Services Page------*/
+
+
+
+/*-------About Page-------*/
+
+
+
+/*------Contact Page------*/
+
+
+	
+}
+
+
+/*======= Medium Devices =======*/
+
+@media only screen and (min-width: 768px) {
+
+	#hamitems {
+		padding: 2em 0 1em;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	#hamitems a {
+		color: #212226;
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 0;
+	}
+
+	#navright label, #hamburger {
+		display: none;
+	}
+
+	.navleft {
+		width: 10%;
+	}
+
+	#navright {
+		width: 80%;
+		padding: .2em 2.5%;
+	}
+
+
+/*------Services Page------*/
+
+
+
+/*-------About Page-------*/
+
+
+
+/*------Contact Page------*/
+
+
+
+}
+
+
+/*======= Large Devices =======*/
+
+@media only screen and (min-width: 992px) {
+
+
+
+/*------Services Page------*/
+
+
+
+/*-------About Page-------*/
+
+
+
+/*------Contact Page------*/
+
+
+
+}
+
+
+/*======= Extra Lg Devices =======*/
+
+@media only screen and (min-width: 1200px) {
+
+
+
+/*------Services Page------*/
+
+
+
+/*-------About Page-------*/
+
+
+
+/*------Contact Page------*/
+
+
+
+}
