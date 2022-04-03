@@ -79,7 +79,7 @@ font-style: normal;
 
 header {
 	height: 5em;
-	padding: 0 5%;
+	padding: 0 6%;
 }
 
 body {
@@ -89,12 +89,17 @@ body {
 	font-family: liza-caps-new, sans-serif;
 }
 
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+}
+
 
 /*======= Menu Styling =======*/
 
 .navleft {
 	float: left;
-	width: 45%;
+	width: 35%;
 	vertical-align: top;
 	margin: 0;
 	padding: 0;
@@ -111,12 +116,53 @@ body {
 	font-size: .938em;
 }
 
+#hamitems {
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+#hamitems a {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	padding: .625em 2%;
+	color: #6057b9;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+}
+
+#hamitems a:hover {
+	opacity: 65%;
+	font-weight: bolder;
+}
+
+#navright label {
+	display: inline-block;
+	color: #010d26;
+	font-size: 2em;
+	padding: .28em 3% 0;
+}
+
+#hamitems {
+	display: none;
+}
+
+#navright input:checked ~ #hamitems {
+	display: block;
+}
+
+#hamburger {
+	display: none;
+}
+
 
 /*======= Main Styling =======*/
 
 .navleft img[alt="MT Logo"] {
 	max-width: 100%;
-	padding: 1em 0 0;
+	padding: .5em 0 0;
 }
 
 .homemain {
@@ -133,14 +179,15 @@ body {
 /*======= Footer Styling =======*/
 
 footer {
-	background-color: #6057b9;
 	height: 3em;
+	padding: 0 3%;
 }
 
 footer p {
 	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
-	font-size: .638em;
+	color: #010d26;
+	font-size: .156em;
+	text-align: right;
 }
 
 
@@ -178,46 +225,10 @@ Media Querries
 
 @media only screen and (min-width: 320px) {
 
-	#hamitems {
-		width: 100%;
-		position: sticky;
-		top: 0;
-	}
-	
-	#hamitems a {
-		box-sizing: border-box;
-		display: block;
-		width: 100%;
-		padding: .625em 2%;
-		color: #6057b9;
-		font-weight: bold;
-		text-decoration: none;
-		text-align: right;
-	}
-	
-	#hamitems a:hover {
-		opacity: 65%;
-		font-weight: bolder;
-	}
-	
-	#navright label {
-		display: inline-block;
-		color: #010d26;
-		font-size: 2.5em;
-		padding: .5em 3% 0;
-	}
-	
-	#hamitems {
-		display: none;
-	}
-	
-	#navright input:checked ~ #hamitems {
-		display: block;
-	}
-	
-	#hamburger {
-		display: none;
-	}
+#navright label {
+	font-size: 2.25em;
+	padding: .5em 4% 0;
+}
 
 
 /*------Services Page------*/
