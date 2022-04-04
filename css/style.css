@@ -367,7 +367,7 @@ Media Querries
 	}
 
 	.btns {
-		margin: 1em 0;
+		margin: 1.5em 0;
 	}
 	
 	.btns button {
@@ -380,17 +380,22 @@ Media Querries
 	footer {
 		display: flex;
 		flex-direction: column;
+		height: 3em;
 	}
 
 	.ftrflex {
-		padding: 0 15%;
+		padding: 1em 11% .75em;
 		display: flex;
 		flex: 1;
 		justify-content: space-between;
 	}
 
 	.ftrflex a {
-		line-height: 165%;
+		font-size: 1em;
+		letter-spacing: .03em;
+		color: #6057b9;
+		font-weight: bold;
+		line-height: 100%;
 		padding: 0;
 		flex: 0 0 3em;
 	}
@@ -401,7 +406,13 @@ Media Querries
 	}
 
 	footer p {
-		margin: 4em 0 0;
+		font-size: .625em;
+		letter-spacing: .05em;
+		color: #ffffff;
+		font-weight: normal;
+		background-color: #6057b9;
+		margin: 0 1%;
+		padding: .5em 1%;
 		text-align: right;
 	}
 
