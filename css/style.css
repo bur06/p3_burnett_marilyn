@@ -318,6 +318,7 @@ Media Querries
 	
 	.btns button {
 		width: 45%;
+		border-radius: .55em;
 		margin: .4em 10%;
 		padding: .6em;
 	}
@@ -372,22 +373,6 @@ Media Querries
 		font-size: 1.063em;
 	}
 
-/*
-.streamlink button {
-	position: absolute;
-	top: 87%;
-	left: 48%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	width: 35%;
-	font-size: .875em;
-	font-weight: bold;
-	background: #c1dadc;
-	border: .09em solid #000000;
-	border-radius: .4em;
-	padding: .45em 0;
-}*/
-
 	.homemain {
 		position: relative;
 	}
@@ -397,19 +382,19 @@ Media Querries
 		width: 100%;
 		display: inline-block;
 		position: absolute;
-		top: 102%;
+		top: 99%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 	}
 	
 	.btns button {
-		border: .7em solid #ffffff;
-		border-radius: 1.4em;
-		width: 20%;
-		margin: 0 1%;
-		padding: .5em;
-		font-size: .938em;
+		border: .5em solid #ffffff;
+		border-radius: 1em;
+		width: 23%;
+		margin: 0 -.3%;
+		padding: .6em;
+		font-size: 1.063em;
 	}
 
 	.btns button:hover, button:active {
@@ -420,11 +405,11 @@ Media Querries
 	footer {
 		display: flex;
 		flex-direction: column;
-		height: 3em;
+		height: 5em;
 	}
 
 	.ftrflex {
-		padding: 1em 10% .5em;
+		padding: 2.5em 10% .25em;
 		display: flex;
 		flex: 1;
 		justify-content: space-between;
@@ -452,7 +437,7 @@ Media Querries
 		font-weight: normal;
 		background-color: #6057b9;
 		margin: 0;
-		padding: .5em 1%;
+		padding: .75em 1%;
 		text-align: right;
 	}
 
@@ -489,14 +474,24 @@ Media Querries
 		padding: .75em 0 0;
 	}
 
+	.btns {
+		top: 100%;
+	}
+
 	.btns button {
-		width: 19%;
-		margin: 0 1.78%;
-		font-size: 1.063em;
+		border: .55em solid #ffffff;
+		border-radius: 1.05em;
+		width: 23.5%;
+		padding: .7em;
+		font-size: 1.188em;
+	}
+
+	footer {
+		height: 6em;
 	}
 
 	.ftrflex {
-		padding: .5em 12% .5em;
+		padding: 3.5em 12% .25em;
 	}
 
 	.ftrflex a {
@@ -505,7 +500,7 @@ Media Querries
 
 	footer p {
 		font-size: .688em;
-		padding: .55em 1.15%;
+		padding: .8em 1.15%;
 	}
 
 
@@ -537,13 +532,15 @@ Media Querries
 	}
 
 	.btns button {
-		width: 18%;
-		margin: 0 1.7%;
-		font-size: 1.125em;
+		border: .6em solid #ffffff;
+		border-radius: 1.05em;
+		width: 23%;
+		padding: .8em;
+		font-size: 1.25em;
 	}
 
 	.ftrflex {
-		padding: .5em 15% .55em;
+		padding: 4em 15% .25em;
 	}
 
 	.ftrflex a {
@@ -552,9 +549,9 @@ Media Querries
 	}
 
 	footer p {
-		font-size: .75em;
+		font-size: .875em;
 		letter-spacing: .02em;
-		padding: .6em 1.25%;
+		padding: .75em 1.25%;
 	}
 
 
