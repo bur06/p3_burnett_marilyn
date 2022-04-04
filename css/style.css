@@ -177,13 +177,13 @@ p {
 .btns {
 	text-align: center;
 	margin: 0 auto;
-	margin: .5em 13%;
+	margin: 1em 13%;
 }
 
 .btns button {
-	width: 60%;
-	margin: .45em;
-	padding: .35em;
+	width: 50%;
+	margin: .4em;
+	padding: .4em;
 	border: none;
 	border-radius: .35em;
 	font-family: 'Open Sans', sans-serif;
@@ -192,21 +192,60 @@ p {
 	color: #ffffff;
 }
 
+.btns button:first-child {
+	background-color: #45b8c4;
+}
 
+.btns button:nth-child(2) {
+	background-color: #0095d2;
+}
+
+.btns button:nth-child(3) {
+	background-color: #6057b9;
+}
+
+.btns button:last-child {
+	background-color: #abd97c;
+}
+
+.btns button:hover, button:active {
+	opacity: 60%;
+	font-weight: bolder;
+}
 
 
 /*======= Footer Styling =======*/
 
 footer {
-	height: 3em;
-	padding: 0 3%;
+	height: 5em;
+	text-align: center;
+	margin: 1em 0;
+}
+
+.ftr a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+	color: #010d26;
+	text-decoration: none;
+	line-height: 165%;
+	padding: 0 18%;
+}
+
+footer a:hover {
+	color: #6057b9;
+	opacity: 65%;
+}
+
+footer a:hover {
+	color: #6057b9;
+	opacity: 100%;
 }
 
 footer p {
 	font-family: 'Open Sans', sans-serif;
 	color: #010d26;
 	font-size: .156em;
-	text-align: right;
+	margin: 6em 0 0;
 }
 
 
