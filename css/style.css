@@ -174,6 +174,25 @@ p {
 	max-width: 100%;
 }
 
+.btns {
+	text-align: center;
+	margin: 0 auto;
+	margin: .5em 13%;
+}
+
+.btns button {
+	width: 60%;
+	margin: .45em;
+	padding: .35em;
+	border: none;
+	border-radius: .35em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+
 
 
 /*======= Footer Styling =======*/
