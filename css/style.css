@@ -222,7 +222,7 @@ footer {
 	margin: 1em 0;
 }
 
-.ftr a {
+.ftrflex a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
 	color: #010d26;
@@ -231,14 +231,18 @@ footer {
 	padding: 0 18%;
 }
 
-footer a:hover {
+.ftrflex a:hover {
 	color: #6057b9;
 	opacity: 65%;
 }
 
-footer a:active {
+.ftrflex a:active {
 	color: #6057b9;
 	opacity: 100%;
+}
+
+#blt {
+	display: none;
 }
 
 footer p {
@@ -373,9 +377,27 @@ Media Querries
 		font-size: .938em;
 	}
 
-	.ftr a {
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ftrflex {
+		padding: 0 15%;
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+	}
+
+	.ftrflex a {
 		line-height: 165%;
 		padding: 0;
+		flex: 0 0 3em;
+	}
+
+	#blt {
+		display: unset;
+		flex: 0 0 1em;
 	}
 
 	footer p {
