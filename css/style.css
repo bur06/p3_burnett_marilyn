@@ -372,15 +372,49 @@ Media Querries
 		font-size: 1.063em;
 	}
 
+/*
+.streamlink button {
+	position: absolute;
+	top: 87%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	width: 35%;
+	font-size: .875em;
+	font-weight: bold;
+	background: #c1dadc;
+	border: .09em solid #000000;
+	border-radius: .4em;
+	padding: .45em 0;
+}*/
+
+	.homemain {
+		position: relative;
+	}
+
 	.btns {
-		margin: 1.5em 0;
+		margin: 0;
+		width: 100%;
+		display: inline-block;
+		position: absolute;
+		top: 102%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
 	}
 	
 	.btns button {
+		border: .7em solid #ffffff;
+		border-radius: 1.4em;
 		width: 20%;
-		margin: 0 1.8%;
-		padding: .6em;
+		margin: 0 1%;
+		padding: .5em;
 		font-size: .938em;
+	}
+
+	.btns button:hover, button:active {
+		opacity: 95%;
+		text-transform: uppercase;
 	}
 
 	footer {
