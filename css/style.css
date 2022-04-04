@@ -236,7 +236,7 @@ footer a:hover {
 	opacity: 65%;
 }
 
-footer a:hover {
+footer a:active {
 	color: #6057b9;
 	opacity: 100%;
 }
@@ -308,7 +308,15 @@ Media Querries
 
 @media only screen and (min-width: 576px) {
 
-
+	.btns {
+		margin: 1em 13%;
+	}
+	
+	.btns button {
+		width: 45%;
+		margin: .4em 10%;
+		padding: .6em;
+	}
 
 /*------Services Page------*/
 
@@ -354,6 +362,26 @@ Media Querries
 		padding: .2em 2.5%;
 	}
 
+	.btns {
+		margin: 1em 0;
+	}
+	
+	.btns button {
+		width: 20%;
+		margin: 0 1.8%;
+		padding: .6em;
+		font-size: .938em;
+	}
+
+	.ftr a {
+		line-height: 165%;
+		padding: 0;
+	}
+
+	footer p {
+		margin: 4em 0 0;
+		text-align: right;
+	}
 
 /*------Services Page------*/
 
