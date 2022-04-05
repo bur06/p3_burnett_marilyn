@@ -222,7 +222,7 @@ footer {
 	margin: 1em 0;
 }
 
-.ftrflex a {
+.ftr a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
 	color: #010d26;
@@ -231,12 +231,12 @@ footer {
 	padding: 0 18%;
 }
 
-.ftrflex a:hover {
+.ftr a:hover {
 	color: #6057b9;
 	opacity: 65%;
 }
 
-.ftrflex a:active {
+.ftr a:active {
 	color: #6057b9;
 	opacity: 100%;
 }
@@ -249,9 +249,8 @@ footer p {
 	font-family: 'Open Sans', sans-serif;
 	color: #010d26;
 	font-size: .156em;
-	margin: 6em 0 0;
+	margin: 3em 0 0;
 }
-
 
 
 /*=================================
@@ -321,6 +320,11 @@ Media Querries
 		border-radius: .55em;
 		margin: .4em 10%;
 		padding: .6em;
+	}
+	
+	footer p {
+		font-size: .25em;
+		margin: 1.75em 0 0;
 	}
 
 /*------Services Page------*/
@@ -403,31 +407,25 @@ Media Querries
 	}
 
 	footer {
-		display: flex;
-		flex-direction: column;
 		height: 5em;
 	}
 
-	.ftrflex {
-		padding: 2.5em 10% .25em;
-		display: flex;
-		flex: 1;
-		justify-content: space-between;
+	.ftr {
+		padding: 2.5em 8% .25em;
+		display: inline-block;
 	}
 
-	.ftrflex a {
+	.ftr a {
 		font-size: 1.063em;
 		letter-spacing: .03em;
 		color: #6057b9;
 		font-weight: bold;
 		line-height: 100%;
 		padding: 0;
-		flex: 0 0 3em;
 	}
 
 	#blt {
 		display: unset;
-		flex: 0 0 1em;
 	}
 
 	footer p {
@@ -440,6 +438,7 @@ Media Querries
 		padding: .75em 1%;
 		text-align: right;
 	}
+
 
 /*------Services Page------*/
 
@@ -490,11 +489,11 @@ Media Querries
 		height: 6em;
 	}
 
-	.ftrflex {
+	.ftr {
 		padding: 3.5em 12% .25em;
 	}
 
-	.ftrflex a {
+	.ftr a {
 		font-size: 1.25em;
 	}
 
@@ -539,11 +538,11 @@ Media Querries
 		font-size: 1.25em;
 	}
 
-	.ftrflex {
+	.ftr {
 		padding: 4em 15% .25em;
 	}
 
-	.ftrflex a {
+	.ftr a {
 		font-size: 1.375em;
 		letter-spacing: .03em;
 	}
