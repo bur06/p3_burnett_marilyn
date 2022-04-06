@@ -241,7 +241,7 @@ footer {
 	opacity: 100%;
 }
 
-#blt {
+.blt {
 	display: none;
 }
 
@@ -424,7 +424,7 @@ Media Querries
 		padding: 0;
 	}
 
-	#blt {
+	.blt {
 		display: unset;
 	}
 
