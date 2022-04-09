@@ -27,37 +27,35 @@
 
     <!-- Main Content -->
     <body>
-      <div class="container">
-        <header>
-          <figure class="navleft">
-            <a href="index.html"><img src="images/sunlogo.svg" alt="ASC Logo" title="Sun Emblem" width="140"/></a>
-          </figure>
-          <nav id="navright">
-            <label for="hamburger">&#9776;</label>
-            <input type="checkbox" id="hamburger"/>
-            <div id="hamitems">
-                <a href="index.html">HOME</a>
-                <a href="events.html">EVENTS</a>
-                <a href="about.html">ABOUT</a>
-                <a href="form.html">CONTACT</a>
-            </div>
-          </nav>
-
-          <h1>Arlington Senior Center</h1>
-        </header>
+        <div class="container">
+            <header>
+                <figure class="navleft">
+                    <a href="index.html"><img src="images/p3_tpemblem.png" alt="MT Logo" title="Water Bubble Emblem" width="250"/></a>
+                </figure>
+                <nav id="navright">
+                    <label for="hamburger">&#9776;</label>
+                    <input type="checkbox" id="hamburger"/>
+                    <div id="hamitems">
+                        <a href="index.html">HOME</a>
+                        <a href="services.html">SERVICES</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+                </nav>
+            </header>
         
-        <main>
-          <div class="container">
-            <div class="replytext">
-              <h1>Thank you for your enquiry</h1>
-              <p>We have received your message and we will be in touch shortly.</p>
+            <main>
+            <div class="container">
+                <div class="replytext">
+                <h1>Thank you for your enquiry</h1>
+                <p>We have received your message and we will be in touch shortly.</p>
+                </div>
             </div>
-          </div>
-        </main>
+            </main>
 
-        <footer>
-        </footer>
-      </div>   
+            <footer>
+            </footer>
+        </div>   
 
     </body>
 </html>

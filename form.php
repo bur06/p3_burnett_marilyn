@@ -40,7 +40,7 @@
 
 						'mgburnett.com' // Put you mail domain here
 						,
-						'ASC Contact Form' // Put your site name / form name here
+						'Mermaids and Tadpoles Contact Form' // Put your site name / form name here
 						,
 						'burnett.marilyn@ufl.edu' // Where will the form notification be sent?
 						,

@@ -27,48 +27,46 @@
 
     <!-- Main Content -->
     <body>
-      <div class="container">
-        <header>
-          <figure class="navleft">
-            <a href="index.html"><img src="images/sunlogo.svg" alt="ASC Logo" title="Sun Emblem" width="140"/></a>
-          </figure>
-          <nav id="navright">
-            <label for="hamburger">&#9776;</label>
-            <input type="checkbox" id="hamburger"/>
-            <div id="hamitems">
-              <a href="index.html">HOME</a>
-              <a href="events.html">EVENTS</a>
-              <a href="about.html">ABOUT</a>
-              <a href="form.html">CONTACT</a>
-            </div>
-          </nav>
-
-          <h1>Arlington Senior Center</h1>
-        </header>
+        <div class="container">
+            <header>
+                <figure class="navleft">
+                    <a href="index.html"><img src="images/p3_tpemblem.png" alt="MT Logo" title="Water Bubble Emblem" width="250"/></a>
+                </figure>
+                <nav id="navright">
+                    <label for="hamburger">&#9776;</label>
+                    <input type="checkbox" id="hamburger"/>
+                    <div id="hamitems">
+                        <a href="index.html">HOME</a>
+                        <a href="services.html">SERVICES</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+                </nav>
+            </header>
             
-        <main>
-          <div class="container">
-            <div class="replytext">
-              <h1>Missing fields</h1>
-              <p>Sorry, you have not completed all of the required fields.</p>
-              <p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+            <main>
+            <div class="container">
+                <div class="replytext">
+                <h1>Missing fields</h1>
+                <p>Sorry, you have not completed all of the required fields.</p>
+                <p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
 
-              <ul>
-              <?php
-                for($i=0; $i<count($this->missing_required_fields); $i++){
-                  echo "<li>" . $this->missing_required_fields[$i]['title'] . "</li>\n";
-                }
-              ?>
-              </ul>
+                <ul>
+                <?php
+                    for($i=0; $i<count($this->missing_required_fields); $i++){
+                    echo "<li>" . $this->missing_required_fields[$i]['title'] . "</li>\n";
+                    }
+                ?>
+                </ul>
 
-              <p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+                <p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+                </div>
             </div>
-          </div>
-        </main>
+            </main>
 
-        <footer>
-        </footer>
-      </div>   
+            <footer>
+            </footer>
+        </div>   
 
     </body>
 </html>
