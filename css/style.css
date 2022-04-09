@@ -89,6 +89,12 @@ body {
 	font-family: liza-caps-new, sans-serif;
 }
 
+h2 {
+	font-family: liza-text, sans-serif;
+	font-size: 1em;
+	color: #6057b9;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
@@ -273,11 +279,111 @@ About Page
 Contact Page
 ==================================*/
 
-#contactpic {
+#contactwrap {
 	background: #ffffff url(../images/bblwater.png) no-repeat top left;
 	background-size: 100%;
 }
 
+#contactwrap {
+	clear: both;
+	max-width: 100%;
+	margin: 0;
+	height: auto;
+	overflow: auto;
+}
+
+#contactwrap h2 {
+	color: #010d26;
+	text-align: right;
+	margin: 0;
+	line-height: 55%;
+	padding: 0 5% .2em;
+}
+
+.contactform {
+	margin: 0 10% 2em;
+	text-align: center;
+}
+
+.contactform label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .813em;
+	font-weight: bold;
+	text-align: right;
+}
+
+.contactname,
+.contactemail,
+.contactphone {
+	text-align: right;
+	margin-right: 16%;
+}
+
+.contactname input,
+.contactemail input,
+.contactphone input {
+	background-color: rgba(255, 255, 255, 70%);
+	text-align: left;
+	width: 66%;
+	margin: .45em 0;
+}
+
+.contactform input, textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+	text-align: left;
+	background-color: rgba(255, 255, 255, 70%);
+	padding: .125em 2%;
+	border: .15em solid rgba(0, 0, 0, 20%);
+	border-radius: 5%;
+}
+
+.contactform input:hover, textarea:hover {
+	border: .13em solid #0095d2;
+}
+
+.contactinquiry {
+	margin: .5em 0;
+}
+
+.contactform textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+	border-radius: 1%;
+	max-width: 100%;
+	padding: .75em 2.5%;
+}
+
+.contactsubmit input {
+	background: #ffffff;
+	border: .15em solid #0095d2;
+	padding: .25em 6%;
+	font-size: .813em;
+	font-weight: bold;
+	color: #0095d2;
+	letter-spacing: .08em;
+}
+
+.contactsubmit input:hover,
+.contactsubmit input:active {
+	background: rgba(69, 184, 196, 20%);
+	border: .2em solid #45b8c4;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.replytext {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #010d26;
+	text-align: center;
+	margin: 2em 8%;
+	padding: .5em 0;
+}
+
+.replytext h1 {
+	font-weight: bold;
+}
 
 
 
