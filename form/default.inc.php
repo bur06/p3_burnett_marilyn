@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASC Error Response</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- no index -->
+        <meta name="googlebot" content="noindex" />
+        <meta name="robots" content="noindex, nofollow">
+        <title>M and T Error Response</title>
 
-    <!-- link to favicon -->
-    <link rel="icon" href="images/favicon.ico">
+        <!-- link to favicon -->
+        <link rel="icon" href="images/p3_favicon.ico">
 
-    <!-- link to sytle.css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- link to sytle.css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
-  </head>
+        <!-- link to Adobe Typekit -->
+        <link rel="stylesheet" href="https://use.typekit.net/yti5vqt.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
 
   <!-- Main Content -->
   <body>
