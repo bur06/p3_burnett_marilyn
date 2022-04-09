@@ -165,8 +165,7 @@ p {
 
 /*======= Main Styling =======*/
 
-.homemain,
-.contentmain {
+.homemain {
 	text-align: center;
 	vertical-align: top;
 }
@@ -274,8 +273,9 @@ About Page
 Contact Page
 ==================================*/
 
-.contentmain img[alt="View Under Water"] {
-	max-width: 100%;
+#contactpic {
+	background: #ffffff url(../images/bblwater.png) no-repeat top left;
+	background-size: 100%;
 }
 
 
@@ -381,8 +381,7 @@ Media Querries
 		font-size: 1.063em;
 	}
 
-	.homemain,
-	.contentmain {
+	.homemain {
 		position: relative;
 	}
 

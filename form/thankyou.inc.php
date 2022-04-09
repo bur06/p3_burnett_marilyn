@@ -47,8 +47,8 @@
             <main>
             <div class="container">
                 <div class="replytext">
-                <h1>Thank you for your enquiry</h1>
-                <p>We have received your message and we will be in touch shortly.</p>
+                    <h1>Thank you for your enquiry</h1>
+                    <p>We have received your message and we will be in touch shortly.</p>
                 </div>
             </div>
             </main>

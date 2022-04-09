@@ -44,12 +44,12 @@
             </header>
         
         <main>
-            <div class="container">
+        <div class="container">
             <div class="replytext">
                 <h1>Oops! Something went wrong with your submission.</h1>
                 <p>Please try again.</p>
             </div>
-            </div>
+        </div>
         </main>
 
         <footer>
