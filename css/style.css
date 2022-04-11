@@ -299,7 +299,7 @@ Contact Page
 }
 
 .contactform {
-	margin: 0 10% 2em;
+	margin: 15em 10% 1em;
 	text-align: center;
 }
 
@@ -314,7 +314,7 @@ Contact Page
 .contactemail,
 .contactphone {
 	text-align: right;
-	margin-right: 16%;
+	margin-right: 15%;
 }
 
 .contactname input,
@@ -323,7 +323,7 @@ Contact Page
 	background-color: rgba(255, 255, 255, 70%);
 	text-align: left;
 	width: 66%;
-	margin: .45em 0;
+	margin: .75em 0;
 }
 
 .contactform input, textarea {
@@ -332,8 +332,8 @@ Contact Page
 	text-align: left;
 	background-color: rgba(255, 255, 255, 70%);
 	padding: .125em 2%;
-	border: .15em solid rgba(0, 0, 0, 20%);
-	border-radius: 5%;
+	border: .15em solid rgba(1, 13, 38, 20%);
+	border-radius: .35em;
 }
 
 .contactform input:hover, textarea:hover {
@@ -341,7 +341,7 @@ Contact Page
 }
 
 .contactinquiry {
-	margin: .5em 0;
+	margin: 1em 0;
 }
 
 .contactform textarea {
@@ -349,16 +349,17 @@ Contact Page
 	font-size: .75em;
 	border-radius: 1%;
 	max-width: 100%;
-	padding: .75em 2.5%;
+	padding: .55em 2.5%;
+	border-radius: .5em;
 }
 
 .contactsubmit input {
-	background: #ffffff;
-	border: .15em solid #0095d2;
+	background-color: rgba(96, 87, 185, 80%);
+	border: .15em solid #6057b9;
 	padding: .25em 6%;
 	font-size: .813em;
 	font-weight: bold;
-	color: #0095d2;
+	color: #ffffff;
 	letter-spacing: .08em;
 }
 
@@ -444,7 +445,6 @@ Media Querries
 
 
 /*------Contact Page------*/
-
 
 	
 }
