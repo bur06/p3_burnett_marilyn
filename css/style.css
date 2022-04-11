@@ -91,7 +91,8 @@ body {
 
 h2 {
 	font-family: liza-text, sans-serif;
-	font-size: 1em;
+	font-size: 1.375em;
+	letter-spacing: .025em;
 	color: #6057b9;
 }
 
@@ -290,12 +291,25 @@ Contact Page
 	background-size: 100%;
 }
 
-#contactwrap h2 {
+.contacttext {
+	padding: 3em 17% 0;
+	height: .2em;
+	line-height: 185%;
+}
+
+.contacttext h2 {
+	font-family: liza-text, sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .025em;
 	color: #010d26;
-	text-align: right;
+	text-align: center;
 	margin: 0;
-	line-height: 55%;
-	padding: 0 5% .2em;
+	padding: 0 0 .5em;
+}
+
+.contacttext p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
 }
 
 .contactform {
@@ -446,6 +460,20 @@ Media Querries
 
 /*------Contact Page------*/
 
+.contacttext {
+	padding: 5.75em 20% 0;
+	height: .05em;
+	line-height: 235%;
+}
+
+.contacttext h2 {
+	font-size: 1.625em;
+	letter-spacing: .035em;
+}
+
+.contacttext p {
+	font-size: 1em;
+}
 	
 }
 
@@ -558,6 +586,9 @@ Media Querries
 
 /*------Contact Page------*/
 
+.contacttext {
+	display: none;
+}
 
 
 }
