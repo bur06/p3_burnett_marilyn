@@ -354,7 +354,7 @@ Contact Page
 }
 
 .contactsubmit input {
-	background-color: rgba(96, 87, 185, 80%);
+	background-color: rgba(96, 87, 185, 45%);
 	border: .15em solid #6057b9;
 	padding: .25em 6%;
 	font-size: .813em;
@@ -365,8 +365,8 @@ Contact Page
 
 .contactsubmit input:hover,
 .contactsubmit input:active {
-	background: rgba(69, 184, 196, 20%);
-	border: .2em solid #45b8c4;
+	background: #6057b9;
+	border: .2em solid #6057b9;
 	text-transform: uppercase;
 	font-weight: bolder;
 }
