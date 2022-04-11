@@ -279,10 +279,6 @@ About Page
 Contact Page
 ==================================*/
 
-#contactwrap {
-	background: #ffffff url(../images/bblwater.png) no-repeat top left;
-	background-size: 100%;
-}
 
 #contactwrap {
 	clear: both;
@@ -290,6 +286,8 @@ Contact Page
 	margin: 0;
 	height: auto;
 	overflow: auto;
+	background: rgba(69, 184, 196, 90%) url(../images/bblfade.png) no-repeat top left;
+	background-size: 100%;
 }
 
 #contactwrap h2 {
