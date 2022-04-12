@@ -91,7 +91,7 @@ body {
 
 h1 {
 	font-family: liza-display-new, sans-serif;
-	font-size: 2em;
+	font-size: 2.25em;
 	letter-spacing: .03em;
 	text-align: right;
 	color: #0095d2;
@@ -99,9 +99,10 @@ h1 {
 
 h2 {
 	font-family: liza-text, sans-serif;
-	font-size: 1.375em;
+	font-size: 1.75em;
 	letter-spacing: .025em;
 	color: #0095d2;
+	padding: .5em 0;
 }
 
 p {
@@ -283,30 +284,38 @@ About Page
 .abtmain h1{
 	clear: both;
 	text-align: center;
-	padding: .25em 0 .75em;
+	padding: .25em 0 .35em;
 }
 
 .abtflex{
 	text-align: center;
 }
 
+.abtflex p {
+	text-align: left;
+	line-height: 185%;
+	padding: .75em 10% .75em 15%;
+}
+
 img[alt="Girl Under Water"] {
-	max-width: 50%;
-	border-radius: 10em;
+	max-width: 40%;
+	border-radius: 15em;
 }
 
 img[alt="Good Form"] {
-	max-width: 50%;
-	border-radius: 10em;
+	max-width: 40%;
+	border-radius: 15em;
 	display: none;
 }
+
 img[alt="Competitive Crawl"] {
-	max-width: 50%;
-	border-radius: 10em;
+	max-width: 40%;
+	border-radius: 15em;
 }
+
 img[alt="Competing"] {
-	max-width: 50%;
-	border-radius: 10em;
+	max-width: 40%;
+	border-radius: 15em;
 }
 
 img[alt="Thumbs Up"] {
@@ -499,6 +508,19 @@ Media Querries
 
 /*-------About Page-------*/
 
+	.abtmain h1 {
+		font-size: 2.5em;
+	}
+
+	.abtmain h2 {
+		font-size: 1.75em;
+	}
+
+	.abtflex p {
+		font-size: 1em;
+		line-height: 190%;
+		padding: .75em 15% .75em 18%;
+	}
 
 
 /*------Contact Page------*/
@@ -626,32 +648,32 @@ Media Querries
 
 /*-------About Page-------*/
 
-.abtwrapper {
-	padding: 0 10%;
-	display: flex;
-	min-height: 60vh;
-	flex-flow: row wrap;
-	justify-content: space-around;
-}
+	.abtwrapper {
+		padding: 0 10%;
+		display: flex;
+		min-height: 60vh;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
 
-.abtflex {
-	display: flex;
-}
+	.abtflex {
+		display: flex;
+	}
 
-.abt1 {
-	flex: 0 0 2em;
-}
+	.abt1 {
+		flex: 0 0 2em;
+	}
 
-.abt2,
-.abt3 {
-	flex: 1;
-}
+	.abt2,
+	.abt3 {
+		flex: 1;
+	}
 
-.abt1 img,
-.abt2 img,
-.abt3 img {
-	border-radius: 10em;
-}
+	.abt1 img,
+	.abt2 img,
+	.abt3 img {
+		border-radius: 10em;
+	}
 
 
 /*------Contact Page------*/
