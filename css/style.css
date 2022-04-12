@@ -89,11 +89,19 @@ body {
 	font-family: liza-caps-new, sans-serif;
 }
 
+h1 {
+	font-family: liza-display-new, sans-serif;
+	font-size: 2em;
+	letter-spacing: .02em;
+	text-align: right;
+	color: #0095d2;
+}
+
 h2 {
 	font-family: liza-text, sans-serif;
 	font-size: 1.375em;
 	letter-spacing: .025em;
-	color: #6057b9;
+	color: #0095d2;
 }
 
 p {
@@ -298,7 +306,7 @@ Contact Page
 }
 
 .contacttext h2 {
-	font-family: liza-text, sans-serif;
+	font-family: liza-display-new, sans-serif;
 	font-size: 1.5em;
 	letter-spacing: .025em;
 	color: #010d26;
