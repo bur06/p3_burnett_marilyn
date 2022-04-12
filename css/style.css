@@ -297,13 +297,19 @@ About Page
 	display: flex;
 }
 
-.abt1,
-.abt3 {
-	flex: 0 0 3em;
+.abt1 {
+	flex: 0 0 2em;
 }
 
-.abt2 {
+.abt2,
+.abt3 {
 	flex: 1;
+}
+
+.abt1 img,
+.abt2 img,
+.abt3 img {
+	border-radius: 10em;
 }
 
 
