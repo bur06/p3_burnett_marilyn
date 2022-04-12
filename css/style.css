@@ -282,36 +282,36 @@ About Page
 
 .abtmain h1{
 	clear: both;
-	padding: 0 15%;
+	text-align: center;
+	padding: .25em 0 .75em;
 }
 
-.abtwrapper {
-	padding: 0 10%;
-	display: flex;
-	min-height: 60vh;
-	flex-flow: row wrap;
-	justify-content: space-around;
+.abtflex{
+	text-align: center;
 }
 
-.abtflex {
-	display: flex;
-}
-
-.abt1 {
-	flex: 0 0 2em;
-}
-
-.abt2,
-.abt3 {
-	flex: 1;
-}
-
-.abt1 img,
-.abt2 img,
-.abt3 img {
+img[alt="Girl Under Water"] {
+	max-width: 50%;
 	border-radius: 10em;
 }
 
+img[alt="Good Form"] {
+	max-width: 50%;
+	border-radius: 10em;
+	display: none;
+}
+img[alt="Competitive Crawl"] {
+	max-width: 50%;
+	border-radius: 10em;
+}
+img[alt="Competing"] {
+	max-width: 50%;
+	border-radius: 10em;
+}
+
+img[alt="Thumbs Up"] {
+	max-width: 100%;
+}
 
 
 /*=================================
@@ -621,6 +621,32 @@ Media Querries
 
 /*-------About Page-------*/
 
+.abtwrapper {
+	padding: 0 10%;
+	display: flex;
+	min-height: 60vh;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.abtflex {
+	display: flex;
+}
+
+.abt1 {
+	flex: 0 0 2em;
+}
+
+.abt2,
+.abt3 {
+	flex: 1;
+}
+
+.abt1 img,
+.abt2 img,
+.abt3 img {
+	border-radius: 10em;
+}
 
 
 /*------Contact Page------*/
