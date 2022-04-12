@@ -369,7 +369,7 @@ Contact Page
 
 .contactsubmit input {
 	background-color: rgba(96, 87, 185, 45%);
-	border: .15em solid #6057b9;
+	border: .15em solid rgba(96, 87, 185, 50%)9;
 	padding: .25em 6%;
 	font-size: .813em;
 	font-weight: bold;
