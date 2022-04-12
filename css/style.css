@@ -92,7 +92,7 @@ body {
 h1 {
 	font-family: liza-display-new, sans-serif;
 	font-size: 2em;
-	letter-spacing: .02em;
+	letter-spacing: .03em;
 	text-align: right;
 	color: #0095d2;
 }
@@ -280,7 +280,31 @@ Services Page
 About Page
 ==================================*/
 
+.abtmain h1{
+	clear: both;
+	padding: 0 15%;
+}
 
+.abtwrapper {
+	padding: 0 10%;
+	display: flex;
+	min-height: 60vh;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.abtflex {
+	display: flex;
+}
+
+.abt1,
+.abt3 {
+	flex: 0 0 3em;
+}
+
+.abt2 {
+	flex: 1;
+}
 
 
 
