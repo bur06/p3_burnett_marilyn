@@ -591,6 +591,15 @@ Media Querries
 		display: none;
 	}
 
+	.contactform:before {
+		content: 'Please submit your information or connect by phone or email as listed below.';
+		font-family: 'Open Sans', sans-serif;
+		font-size: .75em;
+		font-style: italic;
+		text-align: center;
+		padding: 0 0 0 10%;
+	}
+
 
 }
 
