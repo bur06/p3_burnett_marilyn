@@ -648,20 +648,35 @@ Media Querries
 
 /*-------About Page-------*/
 
+	.abtmain h1 {
+		text-align: right;
+		padding: .25em 11% .35em;
+	}
+
+	.abtmain h2 {
+		text-align: left;
+	}
+	
+	.abtflex p {
+		line-height: 165%;
+		padding: .75em 5%;
+	}
+
 	.abtwrapper {
 		padding: 0 10%;
 		display: flex;
-		min-height: 60vh;
+		max-height: 70vh;
 		flex-flow: row wrap;
 		justify-content: space-around;
 	}
 
 	.abtflex {
 		display: flex;
+		text-align: right;
 	}
 
 	.abt1 {
-		flex: 0 0 2em;
+		flex: 0 0 13em;
 	}
 
 	.abt2,
@@ -669,10 +684,30 @@ Media Querries
 		flex: 1;
 	}
 
-	.abt1 img,
-	.abt2 img,
-	.abt3 img {
-		border-radius: 10em;
+	img[alt="Girl Under Water"] {
+		max-width: 90%;
+	}
+	
+	img[alt="Good Form"] {
+		max-width: 120%;
+		display: unset;
+	}
+	
+	img[alt="Competitive Crawl"] {
+		max-width: 80%;
+	}
+	
+	img[alt="Competing"] {
+		max-width: 65%;
+	}
+	
+	img[alt="Thumbs Up"] {
+		max-width: 100%;
+		display: none;
+	}
+	
+	img[alt="Green Thumb"] {
+		max-width: 100%;
 	}
 
 
