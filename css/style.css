@@ -311,6 +311,11 @@ img[alt="Competing"] {
 
 img[alt="Thumbs Up"] {
 	max-width: 100%;
+	display: none;
+}
+
+img[alt="Green Thumb"] {
+	max-width: 100%;
 }
 
 
