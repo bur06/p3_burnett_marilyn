@@ -679,22 +679,32 @@ Media Querries
 		flex: 0 0 13em;
 	}
 
-	.abt2,
+	.abt2 {
+		flex: 1;
+		border-top: 4.25em solid #ffffff;
+	}
+
 	.abt3 {
 		flex: 1;
+		border-top: 4.15em solid #ffffff;
+	}
+
+	.abt2 h2,
+	.abt3 h2 {
+		text-align: center;
 	}
 
 	img[alt="Girl Under Water"] {
-		max-width: 90%;
+		max-width: 88%;
 	}
 	
 	img[alt="Good Form"] {
-		max-width: 120%;
+		max-width: 118%;
 		display: unset;
 	}
 	
 	img[alt="Competitive Crawl"] {
-		max-width: 80%;
+		max-width: 90%;
 	}
 	
 	img[alt="Competing"] {
