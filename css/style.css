@@ -649,8 +649,10 @@ Media Querries
 /*-------About Page-------*/
 
 	.abtmain h1 {
-		text-align: right;
-		padding: .9em 16% 0;
+		text-align: center;
+		padding: .9em 5% 0;
+		width: 47%;
+		float: right;
 	}
 
 	.abtmain h2 {
@@ -809,7 +811,7 @@ Media Querries
 /*-------About Page-------*/
 
 	.abtmain h1 {
-		padding: .9em 20% 0;
+		width: 50%;
 	}
 
 	.abt3 h2 {
@@ -873,6 +875,9 @@ Media Querries
 
 /*-------About Page-------*/
 
+	.abtmain h1 {
+		width: 47%;
+	}
 
 
 /*------Contact Page------*/
