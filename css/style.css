@@ -319,8 +319,12 @@ img[alt="Competing"] {
 }
 
 img[alt="Green Thumb"] {
-	max-width: 50%;
-	height: 50vh;
+	max-width: 100%;
+}
+
+img[alt="Green Swish"] {
+	max-width: 100%;
+	display: none;
 }
 
 
@@ -713,8 +717,16 @@ Media Querries
 
 	img[alt="Green Thumb"] {
 		max-width: 100%;
-		line-height: 0;
-		vertical-align: top;
+		display: none;
+	}
+
+	.abtbtm {
+		position: relative;
+	}
+	
+	img[alt="Green Swish"] {
+		max-width: 100%;
+		display: unset;
 	}
 
 
