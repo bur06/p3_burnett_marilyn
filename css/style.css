@@ -281,7 +281,7 @@ Services Page
 About Page
 ==================================*/
 
-.abtmain h1{
+.abtmain h1 {
 	clear: both;
 	text-align: center;
 	padding: .25em 0 .35em;
@@ -316,11 +316,6 @@ img[alt="Competitive Crawl"] {
 img[alt="Competing"] {
 	max-width: 40%;
 	border-radius: 15em;
-}
-
-img[alt="Thumbs Up"] {
-	max-width: 100%;
-	display: none;
 }
 
 img[alt="Green Thumb"] {
@@ -648,24 +643,33 @@ Media Querries
 
 /*-------About Page-------*/
 
+	.abtmain {
+		padding: 5em 0 0;
+	}
+
 	.abtmain h1 {
 		text-align: right;
 		padding: .25em 11% .35em;
+		display: none;
 	}
 
 	.abtmain h2 {
 		text-align: left;
 	}
 	
+	.abtflex {
+		padding: 0 10%;
+	}
+
 	.abtflex p {
 		line-height: 165%;
 		padding: .75em 5%;
 	}
 
 	.abtwrapper {
-		padding: 0 10%;
+		clear: both;
 		display: flex;
-		max-height: 70vh;
+		max-height: 100vh;
 		flex-flow: row wrap;
 		justify-content: space-around;
 	}
@@ -698,16 +702,13 @@ Media Querries
 	}
 	
 	img[alt="Competing"] {
-		max-width: 65%;
-	}
-	
-	img[alt="Thumbs Up"] {
-		max-width: 100%;
-		display: none;
+		max-width: 60%;
 	}
 	
 	img[alt="Green Thumb"] {
 		max-width: 100%;
+		line-height: 0;
+		vertical-align: top;
 	}
 
 
