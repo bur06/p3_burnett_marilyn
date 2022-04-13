@@ -319,7 +319,8 @@ img[alt="Competing"] {
 }
 
 img[alt="Green Thumb"] {
-	max-width: 100%;
+	max-width: 50%;
+	height: 50vh;
 }
 
 
@@ -643,14 +644,9 @@ Media Querries
 
 /*-------About Page-------*/
 
-	.abtmain {
-		padding: 5em 0 0;
-	}
-
 	.abtmain h1 {
 		text-align: right;
 		padding: .25em 11% .35em;
-		display: none;
 	}
 
 	.abtmain h2 {
@@ -704,7 +700,7 @@ Media Querries
 	img[alt="Competing"] {
 		max-width: 60%;
 	}
-	
+
 	img[alt="Green Thumb"] {
 		max-width: 100%;
 		line-height: 0;
