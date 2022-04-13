@@ -650,7 +650,7 @@ Media Querries
 
 	.abtmain h1 {
 		text-align: right;
-		padding: .25em 11% .35em;
+		padding: 1em 15% 0;
 	}
 
 	.abtmain h2 {
@@ -690,7 +690,7 @@ Media Querries
 
 	.abt3 {
 		flex: 1;
-		border-top: 4.15em solid #ffffff;
+		border-top: 3em solid #ffffff;
 	}
 
 	.abt2 h2,
@@ -708,7 +708,7 @@ Media Querries
 	}
 	
 	img[alt="Competitive Crawl"] {
-		max-width: 90%;
+		max-width: 95%;
 	}
 	
 	img[alt="Competing"] {
