@@ -690,11 +690,16 @@ Media Querries
 
 	.abt3 {
 		flex: 1;
-		border-top: 3em solid #ffffff;
+		border-top: 2em solid #ffffff;
 	}
 
-	.abt2 h2,
+	.abt2 h2 {
+		text-align: center;
+	}
+
 	.abt3 h2 {
+		padding: .9em 0;
+		line-height: 125%;
 		text-align: center;
 	}
 
