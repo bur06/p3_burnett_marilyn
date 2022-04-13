@@ -421,7 +421,7 @@ Contact Page
 
 .contactsubmit input {
 	background-color: rgba(96, 87, 185, 45%);
-	border: .15em solid rgba(96, 87, 185, 50%)9;
+	border: .15em solid rgba(96, 87, 185, 50%);
 	padding: .25em 6%;
 	font-size: .813em;
 	font-weight: bold;
@@ -650,7 +650,7 @@ Media Querries
 
 	.abtmain h1 {
 		text-align: right;
-		padding: 1em 15% 0;
+		padding: .9em 16% 0;
 	}
 
 	.abtmain h2 {
@@ -690,7 +690,7 @@ Media Querries
 
 	.abt3 {
 		flex: 1;
-		border-top: 2em solid #ffffff;
+		border-top: 1.5em solid #ffffff;
 	}
 
 	.abt2 h2 {
@@ -713,7 +713,7 @@ Media Querries
 	}
 	
 	img[alt="Competitive Crawl"] {
-		max-width: 95%;
+		max-width: 93%;
 	}
 	
 	img[alt="Competing"] {
@@ -741,7 +741,7 @@ Media Querries
 		display: none;
 	}
 
-	.contactform:before {
+	.contactform::before {
 		content: 'Please submit your information or connect by phone or email as listed below.';
 		font-family: 'Open Sans', sans-serif;
 		font-size: .75em;
@@ -808,6 +808,14 @@ Media Querries
 
 /*-------About Page-------*/
 
+	.abtmain h1 {
+		padding: .9em 20% 0;
+	}
+
+	.abt3 h2 {
+		text-align: left;
+		padding: .9em 10%;
+	}
 
 
 /*------Contact Page------*/
