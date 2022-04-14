@@ -136,6 +136,8 @@ p {
 	width: 100%;
 	position: sticky;
 	top: 0;
+	background-color: rgba(255, 255, 255, 65%);
+	border-radius: 13em 0 1em 15em;
 }
 
 #hamitems a {
@@ -551,6 +553,8 @@ Media Querries
 		padding: 2em 0 1em;
 		display: flex;
 		justify-content: flex-end;
+		background-color: rgba(255, 255, 255, 0%);
+		border-radius: 0;
 	}
 
 	#hamitems a {
