@@ -275,8 +275,25 @@ footer p {
 Services Page
 ==================================*/
 
+img[alt="Baby Under Water"] {
+	max-width: 50%;
+	border-radius: .75em;
+}
 
+img[alt="Hugging Swimmers"] {
+	max-width: 40%;
+	border-radius: 15em;
+}
 
+img[alt="Competitive Butterfly"] {
+	max-width: 50%;
+	border-radius: .75em;
+}
+
+img[alt="Breast Stroke Competition"] {
+	max-width: 40%;
+	border-radius: 15em;
+}
 
 
 /*=================================
@@ -333,7 +350,6 @@ img[alt="Green Swish"] {
 /*=================================
 Contact Page
 ==================================*/
-
 
 #contactwrap {
 	clear: both;
@@ -676,6 +692,46 @@ Media Querries
 
 /*------Services Page------*/
 
+.svcmain {
+	padding: 0 10%;
+}
+
+.sart1 h2, p {
+	width: 55%;
+	float: left;
+}
+
+.sart1 img {
+	float: left;
+	width: 50%;
+}
+
+.sart2 img {
+	clear: both;
+	float: left;
+	width: 40%;
+}
+
+.sart2 h2, p {
+	float: left;
+	width: 55%;
+}
+
+.sart3 h2, p {
+	clear: both;
+	float: left;
+	width: 55%;
+}
+
+.sart3 img {
+	float: left;
+	width: 50%;
+}
+
+.svcaside {
+	clear: both;
+	width: 100%;
+}
 
 
 /*-------About Page-------*/
