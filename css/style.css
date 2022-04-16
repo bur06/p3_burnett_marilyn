@@ -737,46 +737,50 @@ Media Querries
 
 /*------Services Page------*/
 
-.svcmain {
-	padding: 0 10%;
-}
+	.svcmain h1 {
+		text-align: center;
+		padding: .9em 5% 0;
+		width: 47%;
+		float: right;
+	}
 
-.sart1 h2, p {
-	width: 55%;
-	float: left;
-}
+	.svcmain h2 {
+		text-align: left;
+	}
 
-.sart1 img {
-	float: left;
-	width: 50%;
-}
+	.svcflex {
+		padding: 0 10%;
+	}
 
-.sart2 img {
-	clear: both;
-	float: left;
-	width: 40%;
-}
+	.svcflx p {
+		line-height: 165%;
+		padding: .75em 5%;
+	}
 
-.sart2 h2, p {
-	float: left;
-	width: 55%;
-}
+	.svcwrapper {
+		clear: both;
+		display: flex;
+		max-height: 100vh;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
 
-.sart3 h2, p {
-	clear: both;
-	float: left;
-	width: 55%;
-}
+	.svcflex {
+		display: flex;
+		text-align: right;
+	}
 
-.sart3 img {
-	float: left;
-	width: 50%;
-}
+	.sart1 {
+		flex: 0 0 13em;
+	}
 
-.svcaside {
-	clear: both;
-	width: 100%;
-}
+	.sart2 {
+		flex: 1;
+	}
+
+	.sart3 {
+		flex: 1;
+	}
 
 
 /*-------About Page-------*/
