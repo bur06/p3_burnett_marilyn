@@ -787,6 +787,16 @@ Media Querries
 
 	/*-----Scheduler Page-----*/
 
+	.schedmain {
+		position: relative;
+	}
+
+	.schedmain img[alt="Scheduling App"] {
+		max-width: 85%;
+		margin: 1.85em 0 2.25em;
+		border: .25em solid rgba(1, 13, 38, 28%);
+		border-radius: .8em;
+	}
 
 }
 
