@@ -339,6 +339,11 @@ img[alt="Gradient Waves"] {
 	max-width: 100%;
 }
 
+img[alt="Royal Blue Waves"] {
+	max-width: 100%;
+	display: none;
+}
+
 
 /*=================================
 About Page
@@ -846,6 +851,15 @@ Media Querries
 
 	.svcbtm {
 		position: relative;
+	}
+
+	img[alt="Gradient Waves"] {
+		display: none;
+	}
+
+	img[alt="Royal Blue Waves"] {
+		max-width: 100%;
+		display: unset;
 	}
 
 
