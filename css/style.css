@@ -275,9 +275,29 @@ footer p {
 Services Page
 ==================================*/
 
+.svcmain {
+	clear: both;
+	text-align: center;
+}
+
+.svcmain h1 {
+	text-align: center;
+	padding: .25em 0 .35em;
+}
+
+.svcmain h2 {
+	padding: .25em 15%;
+}
+
+.svcmain p {
+	text-align: left;
+	line-height: 185%;
+	padding: .75em 10% .75em 15%;
+}
+
 img[alt="Baby Under Water"] {
 	max-width: 50%;
-	border-radius: .75em;
+	border-radius: .8em;
 }
 
 img[alt="Hugging Swimmers"] {
@@ -285,14 +305,22 @@ img[alt="Hugging Swimmers"] {
 	border-radius: 15em;
 }
 
-img[alt="Competitive Butterfly"] {
-	max-width: 50%;
-	border-radius: .75em;
-}
-
 img[alt="Breast Stroke Competition"] {
 	max-width: 40%;
 	border-radius: 15em;
+}
+
+img[alt="Competitive Butterfly"] {
+	max-width: 50%;
+	border-radius: .8em;
+}
+
+.svcaside ul {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+	font-weight: bold;
+	color: #45b8c4;
+	line-height: 175%;
 }
 
 
