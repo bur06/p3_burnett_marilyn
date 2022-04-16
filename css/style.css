@@ -871,6 +871,11 @@ Media Querries
 
 /*-----Scheduler Page-----*/
 
+	.schedmain img[alt="Scheduling App"] {
+		margin: 1.85em 0 2.4em;
+		border: .28em solid rgba(1, 13, 38, 28%);
+		border-radius: 1em;
+	}
 
 
 }
@@ -935,6 +940,9 @@ Media Querries
 
 /*-----Scheduler Page-----*/
 
-
+	.schedmain img[alt="Scheduling App"] {
+		margin: 2em 0 2.65em;
+		border: .29em solid rgba(1, 13, 38, 28%);
+	}
 
 }
