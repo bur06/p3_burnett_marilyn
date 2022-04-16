@@ -792,7 +792,7 @@ Media Querries
 	.svcaside {
 		text-align: center;
 		flex: 1;
-		border-top: 3em solid #ffffff;
+		border-top: 1em solid #ffffff;
 	}
 
 	.svcaside h2 {
@@ -842,6 +842,10 @@ Media Querries
 		max-width: 40%;
 		border-radius: 15em;
 		display: unset;
+	}
+
+	.svcbtm {
+		position: relative;
 	}
 
 
