@@ -797,14 +797,14 @@ Media Querries
 	.svcaside {
 		text-align: center;
 		flex: 1;
-		border-top: 1em solid #ffffff;
+		margin: 1.1em 1.5%;
+		border-radius: 1em;
+		background-color: rgba(171, 217, 124, 75%);
 	}
 
 	.svcaside h2 {
 		color: #010d26;
-		padding-top: .75em;
-		border-radius: .35em .35em 0 0;
-		background-color: rgba(171, 217, 124, 75%);
+		padding: 1.15em 10% .75em;
 	}
 
 	.svcaside ul {
@@ -815,14 +815,10 @@ Media Querries
 		color: #010d26;
 		font-size: 1em;
 		padding: .8em 0 0;
-		background-color: rgba(171, 217, 124, 75%);
 	}
 
 	.svcaside p {
-		line-height: 160%;
-		border-radius: 0 0 .5em .5em;
-		background-color: rgba(171, 217, 124, 75%);
-		padding-bottom: 1.5em;
+		padding-top: 1.5em;
 	}
 
 	img[alt="Baby Under Water"] {
@@ -846,6 +842,13 @@ Media Querries
 	img[alt="Girl Competes"] {
 		max-width: 40%;
 		border-radius: 15em;
+		display: unset;
+	}
+
+	#btrfly {
+		max-width: 80%;
+		padding: .5em 0;
+		border-radius: 1em;
 		display: unset;
 	}
 
