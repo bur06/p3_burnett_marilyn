@@ -310,9 +310,21 @@ img[alt="Breast Stroke Competition"] {
 	border-radius: 15em;
 }
 
+img[alt="Girl Competes"] {
+	max-width: 40%;
+	border-radius: 15em;
+	display: none;
+}
+
 img[alt="Competitive Butterfly"] {
 	max-width: 50%;
 	border-radius: .8em;
+}
+
+#btrfly {
+	max-width: 50%;
+	border-radius: .8em;
+	display: none;
 }
 
 .svcaside ul {
@@ -749,12 +761,12 @@ Media Querries
 	}
 
 	.svcflex {
-		padding: 0 5%;
+		padding: 0 4%;
 	}
 
 	.svcflx p {
 		line-height: 165%;
-		padding: .75em 3%;
+		padding: .75em 5%;
 		text-align: left;
 	}
 
@@ -771,25 +783,51 @@ Media Querries
 		text-align: right;
 	}
 
-	.sart1,
+	.sart1,	
 	.sart2 {
 		flex: 0 0 17em;
+		text-align: center;
 	}
 
 	.svcaside {
+		text-align: center;
 		flex: 1;
 		border-top: 3em solid #ffffff;
 	}
 
 	.svcaside ul {
 		text-align: center;
-		padding: .75em 0 0;
+		line-height: 160%;
+		padding: .8em 0 0;
 		border-left: .25em solid #abd97c;
 	}
 
 	.svcaside p {
 		line-height: 145%;
 		border-left: .25em solid #abd97c;
+	}
+
+	img[alt="Baby Under Water"] {
+		max-width: 65%;
+	}
+	
+	img[alt="Hugging Swimmers"] {
+		max-width: 75%;
+	}
+	
+	img[alt="Breast Stroke Competition"] {
+		max-width: 60%;
+	}
+	
+	img[alt="Competitive Butterfly"] {
+		max-width: 49%;
+		display: none;
+	}
+
+	img[alt="Girl Competes"] {
+		max-width: 45%;
+		border-radius: 15em;
+		display: unset;
 	}
 
 
