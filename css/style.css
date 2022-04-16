@@ -453,6 +453,22 @@ Contact Page
 }
 
 
+/*=================================
+Scheduler Page
+==================================*/
+
+.schedmain {
+	text-align: center;
+	vertical-align: top;
+}
+
+.schedmain img[alt="Scheduling App"] {
+	max-width: 85%;
+	margin: 1.5em 0 0;
+	border: .15em solid #6057b9;
+	border-radius: .5em;
+}
+
 
 /*=================================
 Media Querries
@@ -548,6 +564,12 @@ Media Querries
 
 	/*-----Scheduler Page-----*/
 	
+	.schedmain img[alt="Scheduling App"] {
+		margin: 1.85em 0 .5em;
+		border: .2em solid #6057b9;
+		border-radius: .7em;
+	}
+
 }
 
 
