@@ -749,13 +749,15 @@ Media Querries
 /*------Services Page------*/
 
 	.svcmain h1 {
+		font-size: 2.625em;
 		text-align: center;
-		padding: .9em 5% 0;
+		padding: .5em 5% .4em;
 		width: 47%;
 		float: right;
 	}
 
 	.svcmain h2 {
+		font-size: 1.875em;
 		text-align: center;
 	}
 
@@ -809,7 +811,7 @@ Media Querries
 		line-height: 160%;
 		color: #010d26;
 		font-size: 1em;
-		padding: .8em 0 0;
+		padding: .7em 0 0;
 	}
 
 	.svcaside p {
@@ -855,6 +857,7 @@ Media Querries
 /*-------About Page-------*/
 
 	.abtmain h1 {
+		font-size: 2.625em;
 		text-align: center;
 		padding: .9em 5% 0;
 		width: 47%;
@@ -862,6 +865,7 @@ Media Querries
 	}
 
 	.abtmain h2 {
+		font-size: 1.875em;
 		text-align: left;
 	}
 	
@@ -1025,15 +1029,24 @@ Media Querries
 
 /*------Services Page------*/
 
+	.svcmain h1 {
+		font-size: 2.75em;
+	}
+
+	.svcmain h2 {
+		font-size: 2em;
+	}
 
 
 /*-------About Page-------*/
 
 	.abtmain h1 {
+		font-size: 2.75em;
 		width: 50%;
 	}
 
 	.abt3 h2 {
+		font-size: 2em;
 		text-align: left;
 		padding: .9em 10%;
 	}
@@ -1099,12 +1112,24 @@ Media Querries
 
 /*------Services Page------*/
 
+	.svcmain h1 {
+		font-size: 2.875em;
+	}
+
+	.svcmain h2 {
+		font-size: 2.125em;;
+	}
 
 
 /*-------About Page-------*/
 
 	.abtmain h1 {
+		font-size: 2.875em;
 		width: 47%;
+	}
+
+	.abtmain h2 {
+		font-size: 2.125em;;
 	}
 
 
