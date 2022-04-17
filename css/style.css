@@ -321,12 +321,6 @@ img[alt="Competitive Butterfly"] {
 	border-radius: .8em;
 }
 
-#btrfly {
-	max-width: 50%;
-	border-radius: .8em;
-	display: none;
-}
-
 .svcaside ul {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
@@ -790,13 +784,14 @@ Media Querries
 
 	.sart1,	
 	.sart2 {
-		flex: 0 0 17em;
+		flex: 1;
 		text-align: center;
 	}
 
 	.svcaside {
 		text-align: center;
-		flex: 1;
+		flex: 0 0 9em;
+		height: 84vh;
 		margin: 1.1em 1.5%;
 		border-radius: 1em;
 		background-color: rgba(171, 217, 124, 75%);
@@ -835,20 +830,11 @@ Media Querries
 	}
 	
 	img[alt="Competitive Butterfly"] {
-		max-width: 49%;
-		display: none;
+		max-width: 60%;
 	}
-
+		
 	img[alt="Girl Competes"] {
-		max-width: 40%;
-		border-radius: 15em;
-		display: unset;
-	}
-
-	#btrfly {
-		max-width: 80%;
-		padding: .5em 0;
-		border-radius: 1em;
+		max-width: 100%;
 		display: unset;
 	}
 
