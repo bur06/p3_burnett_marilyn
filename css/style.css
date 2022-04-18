@@ -1144,6 +1144,11 @@ Media Querries
 		font-size: 2.125em;;
 	}
 
+	.svcaside {
+		flex: 0 0 11em;
+		max-height: 89vh;
+	}
+
 	img[alt="Competing"] {
 		max-width: 50%;
 		border-radius: 15em;
@@ -1161,10 +1166,17 @@ Media Querries
 		font-size: 2.125em;;
 	}
 
-	.svcaside {
-		flex: 0 0 11em;
-		max-height: 89vh;
-		background-color: rgba(171, 217, 124, 75%);
+	.abt1 {
+		flex: 0 0 14em;
+	}
+
+	.abtflex {
+		text-align: center;
+	}
+
+	.abtflex p {
+		line-height: 170%;
+		padding: .75em 5%;
 	}
 
 
