@@ -293,6 +293,11 @@ Services Page
 	padding: .25em 0 .35em;
 }
 
+.svcmain img[alt="Single Bubble"] {
+	text-align: right;
+	line-height: 0;
+}
+
 .svcmain h2 {
 	padding: .25em 15%;
 }
@@ -771,6 +776,7 @@ Media Querries
 		padding: .5em 5% .4em;
 		width: 47%;
 		float: right;
+		background: url(../images/bubbleh.png) no-repeat top center;
 	}
 
 	.svcmain h2 {
@@ -880,9 +886,10 @@ Media Querries
 	.abtmain h1 {
 		font-size: 2.625em;
 		text-align: center;
-		padding: .9em 5% 0;
+		padding: .5em 5% .4em;
 		width: 47%;
 		float: right;
+		background: url(../images/bubbleh2.png) no-repeat top center;
 	}
 
 	.abtmain h2 {
