@@ -773,7 +773,7 @@ Media Querries
 	.svcmain h1 {
 		font-size: 2.625em;
 		text-align: center;
-		padding: .5em 5% .4em;
+		padding: .6em 5% .2em;
 		width: 47%;
 		float: right;
 		background: url(../images/bubbleh.png) no-repeat top center;
@@ -886,7 +886,7 @@ Media Querries
 	.abtmain h1 {
 		font-size: 2.625em;
 		text-align: center;
-		padding: .5em 5% .4em;
+		padding: .6em 5% .2em;
 		width: 47%;
 		float: right;
 		background: url(../images/bubbleh2.png) no-repeat top center;
@@ -1151,6 +1151,7 @@ Media Querries
 
 	.svcmain h1 {
 		font-size: 2.875em;
+		padding: .5em 5% .3em;
 	}
 
 	.svcmain h2 {
@@ -1173,6 +1174,7 @@ Media Querries
 	.abtmain h1 {
 		font-size: 2.875em;
 		width: 47%;
+		padding: .5em 5% .3em;
 	}
 
 	.abtmain h2 {
