@@ -305,6 +305,10 @@ img[alt="Hugging Swimmers"] {
 	border-radius: 15em;
 }
 
+img[alt="Three Bubbles"] {
+	max-width: 100%;
+}
+
 img[alt="Breast Stroke Competition"] {
 	max-width: 40%;
 	border-radius: 15em;
@@ -319,6 +323,15 @@ img[alt="Girl Competes"] {
 img[alt="Competitive Butterfly"] {
 	max-width: 50%;
 	border-radius: .8em;
+}
+
+img[alt="Two Bubbles"] {
+	max-width: 100%;
+}
+
+img[alt="Three More Bubbles"] {
+	max-width: 100%;
+	display: none;
 }
 
 .svcaside ul {
@@ -1034,6 +1047,16 @@ Media Querries
 
 	.svcmain h2 {
 		font-size: 2em;
+	}
+
+	img[alt="Two Bubbles"] {
+		max-width: 100%;
+		display: none;
+	}
+
+	img[alt="Three More Bubbles"] {
+		max-width: 100%;
+		display: unset;
 	}
 
 
