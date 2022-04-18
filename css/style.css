@@ -105,6 +105,14 @@ h2 {
 	padding: .5em 0;
 }
 
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+	font-weight: bold;
+	color: #45b8c4;
+	line-height: 175%;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
@@ -331,7 +339,7 @@ img[alt="Two Bubbles"] {
 	display: none;
 }
 
-.svcaside ul {
+.svcaside h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
 	font-weight: bold;
@@ -813,7 +821,7 @@ Media Querries
 		padding: 1.15em 10% .75em;
 	}
 
-	.svcaside ul {
+	.svcaside h3 {
 		text-align: center;
 		font-weight: bolder;
 		text-transform: uppercase;
