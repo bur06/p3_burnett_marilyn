@@ -774,7 +774,6 @@ Media Querries
 	.svcwrapper {
 		clear: both;
 		display: flex;
-		max-height: 100vh;
 		flex-flow: row wrap;
 		justify-content: space-around;
 	}
@@ -793,9 +792,9 @@ Media Querries
 	.svcaside {
 		text-align: center;
 		flex: 0 0 9em;
-		height: 100vh;
-		margin: 1.1em 1.5%;
-		border-radius: 1em 1em 2em 2em;
+		min-height: 50vh;
+		margin: 1em 1.5% 0;
+		border-radius: 1em 1em 5em 5em;
 		background-color: rgba(171, 217, 124, 75%);
 	}
 
