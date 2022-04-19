@@ -1192,12 +1192,21 @@ Media Querries
 	}
 
 	.svcmain h2 {
-		font-size: 2.125em;;
+		font-size: 2.125em;
 	}
 
 	.svcaside {
 		flex: 0 0 11em;
-		max-height: 95vh;
+		max-height: 100vh;
+	}
+
+	.svcaside h2 {
+		padding: 1.15em 15% .75em;
+	}
+
+	.svcaside p {
+		font-size: 1.063em;
+		padding: 1.5em 20%;
 	}
 
 	img[alt="Competing"] {
@@ -1215,7 +1224,7 @@ Media Querries
 	}
 
 	.abtmain h2 {
-		font-size: 2.125em;;
+		font-size: 2.125em;
 	}
 
 	.abt1 {
