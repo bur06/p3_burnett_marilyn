@@ -531,6 +531,7 @@ Contact Page
 }
 
 .replytext h1 {
+	clear: both;
 	font-family: liza-display-new, sans-serif;
 	font-size: 2.25em;
 	text-align: center;
