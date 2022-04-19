@@ -530,6 +530,10 @@ Contact Page
 	font-weight: bolder;
 }
 
+.replyhdr {
+	padding-bottom: 3em;
+}
+
 #replytext {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
