@@ -44,7 +44,7 @@
                 </nav>
             </header>
         
-            <main>
+            <main class="replymain">
             <div class="container">
                 <div class="replytext">
                     <h1>Thank you for your enquiry</h1>

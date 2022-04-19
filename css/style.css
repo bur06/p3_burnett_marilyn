@@ -521,6 +521,13 @@ Contact Page
 	font-weight: bolder;
 }
 
+.replymain {
+	clear: both;
+	text-align: center;
+	padding: 2em 0;
+	border-top: .75em solid #6057b9;
+}
+
 .replytext {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
