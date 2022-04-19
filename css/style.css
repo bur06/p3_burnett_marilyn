@@ -521,7 +521,7 @@ Contact Page
 	font-weight: bolder;
 }
 
-.replytext {
+#replytext {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	color: #010d26;
@@ -530,7 +530,7 @@ Contact Page
 	padding: .5em 0;
 }
 
-.replytext h1 {
+#replytext h1 {
 	clear: both;
 	font-family: liza-display-new, sans-serif;
 	font-size: 2.25em;
@@ -540,7 +540,7 @@ Contact Page
 	margin: 1.5em 0 2em;
 }
 
-.replytext p {
+#replytext p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 }
@@ -667,7 +667,7 @@ Media Querries
 		font-size: 1em;
 	}
 
-	.replytext h1 {
+	#replytext h1 {
 		font-size: 2.5em;
 	}
 
@@ -1006,7 +1006,7 @@ Media Querries
 		padding: 0 0 0 10%;
 	}
 
-	.replytext h1 {
+	#replytext h1 {
 		font-size: 2.625em;
 	}
 
@@ -1112,7 +1112,7 @@ Media Querries
 
 /*------Contact Page------*/
 
-	.replytext h1 {
+	#replytext h1 {
 		font-size: 2.75em;
 	}
 
@@ -1220,11 +1220,11 @@ Media Querries
 
 /*------Contact Page------*/
 
-	.replytext h1 {
+	#replytext h1 {
 		font-size: 2.875em;
 	}
 
-	.replytext p {
+	#replytext p {
 		font-size: 1.125em;
 	}
 
